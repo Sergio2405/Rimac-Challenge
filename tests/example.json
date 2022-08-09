@@ -1,0 +1,13 @@
+{
+    "Age" : 41,
+    "Sex" : "M",
+    "ChestPainType" : "ATA",
+    "RestingBP" : 140,
+    "Cholesterol" : 289,
+    "FastingBS" : 0,
+    "RestingECG" : "Normal",
+    "MaxHR" : 123,
+    "ExerciseAngina": "N",
+    "Oldpeak": 1.5,
+    "ST_Slope": "Flat"
+}
