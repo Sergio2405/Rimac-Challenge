@@ -26,6 +26,8 @@ pip install -r requirements.txt
 uvicorn app.api:app --reload --port 8001
 ```
 3. Una vez desplegado el api abra la **segunda consola** para realizar el testeo
+4. La carpeta tests contiene 3 json que servirán de ejemplos para testear el api
+5. Finalmente, use el siguiente comando para enviar el ejemplo json al api
 ```bash
 curl -d @./tests/example1.json -H "Content-Type: application/json" -X POST http://127.0.0.1:8001/predict
 ```
