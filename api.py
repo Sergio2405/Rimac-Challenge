@@ -3,7 +3,7 @@ from fastapi import FastAPI, Request
 import pandas as pd 
 import joblib
 
-model = joblib.load('./model/model.pkl')
+model = joblib.load('./model/model.pkl') # importando el modelo
 app = FastAPI()
 
 @app.post("/")

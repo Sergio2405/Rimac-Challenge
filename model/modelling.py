@@ -27,6 +27,4 @@ lgbmc = LGBMClassifier(random_state=0)
 pipe = make_pipeline(ct, lgbmc)
 pipe.fit(X_train, y_train)
 
-y_pred = pipe.predict(X_test)
-
-joblib.dump(pipe, 'model.pkl') 
+joblib.dump(pipe, 'model.pkl') # exportando el modelo
