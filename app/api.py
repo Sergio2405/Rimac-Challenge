@@ -6,15 +6,12 @@ import joblib
 model = joblib.load('./model/model.pkl') # importando el modelo
 app = FastAPI()
 
-@app.post("/")
+@app.post("/predict", status_code = 200)
 async def root(request: Request):
 
     data = await request.json()
-    
-    values = list(data.values())
-    columns = list(data.keys())
 
-    df_pred = pd.DataFrame([values], columns = columns)
+    df_pred = pd.DataFrame([data])
 
     prediction = model.predict_proba(df_pred)
 
