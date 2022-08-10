@@ -1,0 +1,13 @@
+{
+    "Age" : 87,
+    "Sex" : "F",
+    "ChestPainType" : "TA",
+    "RestingBP" : 162,
+    "Cholesterol" : 246,
+    "FastingBS" : 1,
+    "RestingECG" : "ST",
+    "MaxHR" : 177,
+    "ExerciseAngina": "N",
+    "Oldpeak": 1.0,
+    "ST_Slope": "Down"
+}

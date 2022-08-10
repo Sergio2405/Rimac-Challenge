@@ -1,0 +1,13 @@
+{
+    "Age" : 23,
+    "Sex" : "M",
+    "ChestPainType" : "ASY",
+    "RestingBP" : 120,
+    "Cholesterol" : 200,
+    "FastingBS" : 0,
+    "RestingECG" : "LVH",
+    "MaxHR" : 90,
+    "ExerciseAngina": "Y",
+    "Oldpeak": 2.3,
+    "ST_Slope": "Up"
+}
