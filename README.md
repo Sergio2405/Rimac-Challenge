@@ -1,7 +1,7 @@
 # Rimac Challenge
 ## Descripción
 
-Repositorio que crea un api de un modelo que predice la probabilidad de tener una enfermedad cardiaca.
+Repositorio que crea un api para un modelo que predice la probabilidad de tener una enfermedad cardiaca.
 
 ## Guía de Usuario
 
@@ -20,7 +20,7 @@ challenge\Scripts\activate
 pip install -r requirements.txt
 ```
 ### Deployar api y Testearlo
-1. Asegurarse de estar en el directorio donde esta el api y abra 2 consolas
+1. Asegurarse de estar en el directorio donde esta el app y abra 2 consolas
 2. En la **primera consola** despligue localmente el api con el siguiente comando
 ```bash
 uvicorn app.api:app --reload --port 8001
